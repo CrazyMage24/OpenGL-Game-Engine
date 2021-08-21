@@ -2,8 +2,11 @@
 #define APPLICATION_HPP
 
 #include <iostream>
+#include <vector>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+
+using namespace std;
 
 class Application
 {

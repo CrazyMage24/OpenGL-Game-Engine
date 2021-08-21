@@ -16,7 +16,7 @@ Application::Application(unsigned int WIDTH, unsigned int HEIGHT)
 	glViewport(0, 0, WIDTH, HEIGHT);
 
 	// Specify the color of the background
-	glClearColor(0.07f, 0.13f, 0.17f, 1.0f);
+	glClearColor(0.17f, 0.23f, 0.27f, 1.0f);
 	// Clean the back buffer and assign the new color to it
 	glClear(GL_COLOR_BUFFER_BIT);
 	// Swap the back buffer with the front buffer

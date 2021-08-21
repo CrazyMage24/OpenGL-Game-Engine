@@ -1,7 +1,5 @@
 #include "Application.h"
 
-using namespace std;
-
 const unsigned int WIDTH = 800;
 const unsigned int HEIGHT = 800;
 
