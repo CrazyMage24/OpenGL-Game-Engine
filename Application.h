@@ -5,6 +5,7 @@
 #include <vector>
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glm/glm.hpp>
 
 using namespace std;
 
@@ -12,13 +13,11 @@ class Application
 {
 private:
 	unsigned int WIDTH, HEIGHT;
+	float mouse_pos_x;
+	float mouse_pos_y;
 	GLFWwindow* window;
 public:
 	Application(unsigned int WIDTH, unsigned int HEIGHT);
-	void GLFWInit();
-	void createWindow();
-	void Loop();
-	void Destroy();
 };
 
 #endif APPLICATION_HPP

@@ -1,2 +1,8 @@
 ﻿  Application.cpp
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Shader.h(56,40): warning C4101: 'e': unreferenced local variable
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Application.cpp(94,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Application.cpp(95,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Application.cpp(105,45): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Application.cpp(146,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Application.cpp(146,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   OpenGL Game Engine.vcxproj -> C:\Users\Gabor\Desktop\OpenGL Game Engine\x64\Debug\OpenGL Game Engine.exe
