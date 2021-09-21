@@ -5,6 +5,8 @@
 #include<glad/glad.h>
 #include<vector>
 
+using namespace std;
+
 // Structure to standardize the vertices used in the meshes
 struct Vertex
 {

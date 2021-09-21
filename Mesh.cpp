@@ -25,8 +25,8 @@ Mesh::Mesh(std::vector <Vertex>& vertices, std::vector <GLuint>& indices, std::v
 
 void Mesh::Draw
 (
-	Shader& shader,
-	Camera& camera,
+	Shader shader,
+	Camera camera,
 	glm::mat4 matrix,
 	glm::vec3 translation,
 	glm::quat rotation,

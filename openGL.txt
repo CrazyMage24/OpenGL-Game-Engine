@@ -1,0 +1,7 @@
+1.	OpenGL/GLFW/GLAD szervezése
+2.	VAO/VBO/EBO class
+3.	Shader class és default Shader
+4.	Texture class
+5.	UI kezelőfelület
+6.	3D default shader
+7.	Camera class

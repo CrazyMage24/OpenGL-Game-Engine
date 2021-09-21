@@ -1,19 +1,14 @@
-#ifndef APPLICATION_HPP
-#define APPLICATION_HPP
+#ifndef APPLICATION_H
+#define APPLICATION_H
 
-#include"Model.h"
-
-using namespace std;
+#include "Window.h"
 
 class Application
 {
 private:
-	unsigned int WIDTH, HEIGHT;
-	float mouse_pos_x;
-	float mouse_pos_y;
-	GLFWwindow* window;
+
 public:
-	Application(unsigned int WIDTH, unsigned int HEIGHT);
+	Application();
 };
 
-#endif APPLICATION_HPP
+#endif APPLICATION_H
