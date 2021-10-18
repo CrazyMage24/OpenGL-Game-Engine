@@ -61,7 +61,7 @@ Window::Window(unsigned int WIDTH, unsigned int HEIGHT)
 	Camera camera = Camera(WIDTH, HEIGHT, glm::vec3(0.0f, 0.0f, 2.0f));
 
 	// Original code from the tutorial
-	Model model = Model("models/bunny/scene.gltf");
+	Model model = Model("models/map/scene.gltf");
 
 	// Main while loop
 	while (!glfwWindowShouldClose(window))

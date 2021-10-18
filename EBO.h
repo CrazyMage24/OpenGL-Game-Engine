@@ -1,5 +1,5 @@
-#ifndef EBO_CLASS_H
-#define EBO_CLASS_H
+#ifndef EBO_H
+#define EBO_H
 
 #include<glad/glad.h>
 #include<vector>
@@ -20,4 +20,4 @@ public:
 	void Delete();
 };
 
-#endif
+#endif EBO_H

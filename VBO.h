@@ -1,5 +1,5 @@
-#ifndef VBO_CLASS_H
-#define VBO_CLASS_H
+#ifndef VBO_H
+#define VBO_H
 
 #include<glm/glm.hpp>
 #include<glad/glad.h>
@@ -15,8 +15,6 @@ struct Vertex
 	glm::vec3 color;
 	glm::vec2 texUV;
 };
-
-
 
 class VBO
 {
@@ -34,4 +32,4 @@ public:
 	void Delete();
 };
 
-#endif
+#endif VBO_H

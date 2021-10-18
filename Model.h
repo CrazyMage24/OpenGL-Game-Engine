@@ -1,11 +1,10 @@
-#ifndef MODEL_CLASS_H
-#define MODEL_CLASS_H
+#ifndef MODEL_H
+#define MODEL_H
 
 #include<json/json.h>
 #include"Mesh.h"
 
 using json = nlohmann::json;
-
 
 class Model
 {
@@ -58,4 +57,4 @@ private:
 	std::vector<glm::vec3> groupFloatsVec3(std::vector<float> floatVec);
 	std::vector<glm::vec4> groupFloatsVec4(std::vector<float> floatVec);
 };
-#endif
+#endif MODEL_H

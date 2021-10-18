@@ -1,5 +1,5 @@
-#ifndef MESH_CLASS_H
-#define MESH_CLASS_H
+#ifndef MESH_H
+#define MESH_H
 
 #include <string>
 #include <iostream>
@@ -32,4 +32,4 @@ public:
 		glm::vec3 scale = glm::vec3(1.0f, 1.0f, 1.0f)
 	);
 };
-#endif
+#endif MESH_H

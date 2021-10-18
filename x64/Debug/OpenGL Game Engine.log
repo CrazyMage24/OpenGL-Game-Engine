@@ -1,2 +1,4 @@
-﻿  main.cpp
+﻿  Window.cpp
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Window.cpp(115,56): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Gabor\Desktop\OpenGL Game Engine\Window.cpp(115,88): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   OpenGL Game Engine.vcxproj -> C:\Users\Gabor\Desktop\OpenGL Game Engine\x64\Debug\OpenGL Game Engine.exe

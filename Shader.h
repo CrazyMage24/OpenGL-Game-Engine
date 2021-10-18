@@ -1,5 +1,5 @@
-#ifndef SHADER_CLASS_H
-#define SHADER_CLASS_H
+#ifndef SHADER_H
+#define SHADER_H
 
 #include<glad/glad.h>
 #include<string>
@@ -27,5 +27,4 @@ private:
 	void compileErrors(unsigned int shader, const char* type);
 };
 
-
-#endif
+#endif SHADER_H
